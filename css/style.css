@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image:url(/img/donate-background.jpg);
+    background-position: center;
+}
+header{
+    width: 100%;
+    background-color:rgba(96, 96, 96,.8);
+    padding: 10px;    
+    text-align: center;
+}
+header h1{
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    color: #eee;
+
+
+}
+
+#table-sec{
+    width: 45%;
+    float: right;
+    background-color: rgba(96, 96, 96, 0.671);
+    margin:2.5%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+#donor-table{
+    margin: 2.5%;
+    width: 95%;
+    border-collapse: collapse;
+    color: #eee;
+
+    
+}
+#donor-table th,td{
+    border: 1px solid #eee;
+    padding: 8px;
+    font-size:larger;
+    
+}
+#donor-table tr:nth-child(even){
+    background-color: #00000060;
+}
+#donor-table tr:hover {background-color: rgba(221, 221, 221, 0.281);}
+
+#donor-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #000000cb;
+    
+}
+
+#total{
+    padding: 10px;
+    font-size: x-large;
+    font-weight: bold;
+    color: #eee;
+
+}
+
+#form-sec{
+    width: 45%;
+    float: left;
+    background-color: rgba(96, 96, 96, 0.671);
+    margin:2.5%;
+
+}
+#donate-form{
+    margin: 2.5%;
+    width: 95%;
+    font-family: 'Roboto', sans-serif;
+
+}
+#donate-form label{
+    float: left;
+    width: 50%;
+    color: #eee;
+    font-size: larger;
+
+}
+#donate-form input{
+    display: block;
+    width: 50%;
+    font-size: larger;
+    margin-bottom: 10px;
+    border-radius: 20px;
+
+
+}
+#donate-form select{
+    display: block;
+    width: 50%;
+    font-size: larger;
+    border-radius: 20px;
+
+}
+#submit-btn{
+    float: right;
+    background-color: black;
+    color: #eee;
+    margin-top: 5px;
+    font-size: larger;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(96, 96, 96, 0.671);
+    width: 100%;
+    color: #eee;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+
+}

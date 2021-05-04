@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Donation Site</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Donation Site</h1>
+    </header>
+    <main>
+        <section id="form-sec">
+            <form id="donate-form">
+                <label for="name">Donor Name </label>
+                <input type="text" id="name">
+                <label for="amount">Amount </label>
+                <select name="amount" id="amount" required>
+                    <option value="">Please Select</option>
+                    <option value="100">100JD</option>
+                    <option value="500">500JD</option>
+                    <option value="1000">1000JD</option>
+
+                </select>
+                <input type="submit" value="Submit" id="submit-btn">
+            </form>
+        </section>
+        <section id="table-sec">
+            <table id="donor-table">
+                <tr>
+                    <th>Donor Name</th>
+                    <th>Donor Age</th>
+                    <th>Amount (JD)</th>
+                </tr>
+            </table>
+            <h4 id="total">Total : 0 JD</h4>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; ASAC 2021</p>
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+</html>
